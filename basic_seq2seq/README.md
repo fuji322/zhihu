@@ -20,7 +20,7 @@
 
 - ```tf.contrib.layers.embed_sequence```
 	- 链接：<https://www.tensorflow.org/api_docs/python/tf/contrib/layers/embed_sequence>
-	- 说明：对序列数据执行embedding操作，输入```[batch_size, sequence_length]```的tensor，返回```[batch_size, sequence_length, embed_dim]```的tensor。
+	- 说明：对序列数据执行embedding操作，输入```[batch_size, sequence_length]```的tensor，返回```[batch_size, sequence_length, embed_dim]```的tensor。【每一个元素从1个数扩成了embed_dim维】
 	- 例子：
 	
 			features = [[1,2,3],[4,5,6]]
